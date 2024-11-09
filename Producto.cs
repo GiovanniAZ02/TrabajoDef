@@ -1,16 +1,27 @@
-﻿public class Producto
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TrabajoDef
 {
-    public string Nombre { get; set; }
-    public decimal Precio { get; set; }
-
-    public Producto(string nombre, decimal precio)
+    public class Producto
     {
-        Nombre = nombre;
-        Precio = precio;
-    }
+        public string Nombre { get; set; }
+        public decimal Precio { get; set; }
 
-    public void MostrarInformacion()
-    {
-        Console.WriteLine($"Nombre: {Nombre}, Precio: {Precio:C}");
+        public Producto(string nombre, decimal precio)
+        {
+            Nombre = nombre;
+            Precio = precio;
+        }
+
+        public void MostrarInformacion()
+        {
+            Console.WriteLine($"Nombre: {Nombre}, Precio: {Precio:C}");
+        }
     }
 }
+
+
