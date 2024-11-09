@@ -97,18 +97,18 @@ namespace TrabajoDef
 
                         case 6:
                             continuar = false;
-                            Console.WriteLine("\nPrograma finalizado.\n");
+                            Console.WriteLine("\nPrograma finalizado");
                             break;
 
                         default:
-                            Console.WriteLine("Opción inválida. Intente nuevamente.");
+                            Console.WriteLine("Opción inválida, vuelva a intentarlo");
                             Console.WriteLine();
                             break;
                     }
                 }
                 else
                 {
-                    Console.WriteLine("Entrada no válida. Seleccione una opción numérica.");
+                    Console.WriteLine("Entrada no válida. Seleccione la opcion correcta.");
                     Console.WriteLine();
                 }
             }
